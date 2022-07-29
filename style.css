@@ -9,6 +9,7 @@ html,body{
   display: grid;
   height: 100%;
   place-items: center;
+  background: gray;
 }
 .buttons{
   display: flex;
@@ -123,7 +124,42 @@ html,body{
 /*  */
 .row button.linkedin,
 .row button.linkedin span{
-  background: #3B5999;
-  border-left: 1px solid #2E4476;
-  box-shadow: 0px 5px 0px 0px #2E4476;
+  background: #0a66c2;
+  border-left: 1px solid #ffffff;
+  box-shadow: 0px 5px 0px 0px #ffffff;
 }
+
+.row button.linkedin:active{
+  box-shadow: 0px 2px 0px 0px #ffffff;
+}
+
+.row button.linkedin span{
+  border-right: 1px solid #ffffff;
+}
+
+.row button.linkedin:active span{
+  box-shadow: 0px 5px 0px 0px #ffffff,
+              6px 4px 2px rgba(0,0,0,0.3);
+}
+
+/*  */
+.row button.whatsapp,
+.row button.whatsapp span{
+  background: #25d366;
+  border-left: 1px solid #128c7e;
+  box-shadow: 0px 5px 0px 0px #128c7e;
+}
+
+.row button.whatsapp:active{
+  box-shadow: 0px 2px 0px 0px #128c7e;
+}
+
+.row button.whatsapp span{
+  border-right: 1px solid #128c7e;
+}
+
+.row button.whatsapp:active span{
+  box-shadow: 0px 5px 0px 0px #128c7e,
+              6px 4px 2px rgba(0,0,0,0.3);
+}
+
